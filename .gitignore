@@ -1,0 +1,8 @@
+*.o
+moc_*.hpp
+moc_*.h
+moc_*.cpp
+moc_*.c
+.qmake.stash
+Makefile
+btCHange
