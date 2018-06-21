@@ -12,7 +12,7 @@ class BTCCAgent : public QObject
     Q_OBJECT
 
     public:
-        BTCCAgent(char*, char*, char*);
+        BTCCAgent(const char*, const char*, const char*);
         void setTimeout(int);
 
     public slots:

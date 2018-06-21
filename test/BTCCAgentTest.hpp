@@ -1,3 +1,7 @@
+/*
+ * This is a test class for testing the funcionality of the BTCCAgent
+ */
+
 #include <QtTest>
 #include "../src/BTCCAgent.hpp"
 
@@ -11,6 +15,7 @@ class BTCCAgentTest : public QObject
     }
 
     private slots:
+        // Test BTCCAgent response
         void test() {
             BTCCAgent agent("https://www.bitstamp.net/api/v2/ticker/btceur/",
                             "last",
