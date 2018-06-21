@@ -3,11 +3,11 @@
 #include <QtScript>
 #include "BTCCAgent.hpp"
 
-BTCCAgent::BTCCAgent(const char* pUrl, const char* prop, const char* msg) {
-    url = pUrl;
-    changeProperty = prop;
-    networkTimeout = 3000;
-    actualChangeMsg = msg;
+BTCCAgent::BTCCAgent(const char* pUrl, const char* prop, const char* msg) :
+  url(pUrl),
+  changeProperty(prop),
+  networkTimeout(3000),
+  actualChangeMsg(msg) {
 }
 
 void BTCCAgent::setTimeout(int timeout) {
