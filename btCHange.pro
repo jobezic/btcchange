@@ -20,8 +20,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 # Input
 HEADERS += src/BTCCAgent.hpp \
-           src/BTCChange.hpp \
-           src/btchange.hpp
+           src/BTCChange.hpp
 SOURCES += src/BTCCAgent.cpp src/BTCChange.cpp
 
 test {
